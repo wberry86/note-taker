@@ -1,1 +1,24 @@
-[{"title":"Note1","text":"Hello\n"},{"title":"Note2","text":"Goodbye"},{"name":"William","species":"human","diet":"omnivore","personalityTraits":["anxious","goofy"],"id":"2"},{"name":"William","species":"human","diet":"omnivore","personalityTraits":["anxious","goofy"],"id":"3"}]
+{
+  "notes": [
+    {
+      "title": "Hello there!",
+      "text": "Hi how are you",
+      "id": "1"
+    },
+    {
+      "title": "Hello ",
+      "text": "Hows it going!",
+      "id": "2"
+    },
+    {
+      "title": "Alright ",
+      "text": "This is starting to work!",
+      "id": "2"
+    },
+    {
+      "title": "howdy",
+      "text": "howdy partner",
+      "id": "3"
+    }
+  ]
+}

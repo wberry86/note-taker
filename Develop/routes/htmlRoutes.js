@@ -1,16 +1,16 @@
 const path = require('path');
-//html routes
-// posts index.html to server
-app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, './Develop/public/index.html'));
+const router = require('express').Router();
+
+router.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
-app.get('/notes', (req, res) => {
-  res.sendFile(path.join(__dirname, './Develop/public/notes.html'));
+router.get('/notes', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/notes.html'));
 });
 
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, './Develop/public/index.html'));
+router.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname, '../public/index.html'));
 });
 
-module.exports = htmlRoutes;
+module.exports = router;
