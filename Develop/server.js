@@ -1,5 +1,3 @@
-//const { notes } = require('./db/db.json');
-
 const express = require("express");
 
 const apiRoutes = require("./routes/apiRoutes");

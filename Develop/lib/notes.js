@@ -42,5 +42,4 @@ function filterByQuery(query, notesArray) {
     validateNotes,
     createNewNote,
     findById
-    
   };
