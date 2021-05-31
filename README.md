@@ -10,6 +10,9 @@
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
+  - [Links](#links)
+  - [Screenshots](#screenshots)
+  
   ## Description:
   Note Taker is an application that can be used to write and save notes and uses Express.js as a back end in order to save and retrieve data from a JSON file.
   ## Installation:
@@ -28,3 +31,20 @@
 
   - Github: [wberry86](https://github.com/wberry86)
   - Email: wberry86@gmail.com
+
+  ## Links
+  
+  
+  [Heroku Live Page](https://obscure-dusk-26462.herokuapp.com/)
+  
+  [Github Live Page](https://wberry86.github.io/note-taker/)
+  
+  ## Screenshots
+  
+  ![note-taker screenshot](https://github.com/wberry86/note-taker/blob/main/Develop/assets/images/notetaker1.PNG)
+  
+  ![note-taker screenshot](https://github.com/wberry86/note-taker/blob/main/Develop/assets/images/Capture.PNG)
+  
+  ![note-taker screenshot](https://github.com/wberry86/note-taker/blob/main/Develop/assets/images/Capture3.PNG)
+  
+  
