@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
+
 function filterByQuery(query, notesArray) {
     let filteredResults = notesArray;
     if (query.title) {
@@ -36,6 +37,9 @@ function filterByQuery(query, notesArray) {
     const result = notes.filter(note => note.id === id)[0];
     return result;
   }
+
+  
+
 
   module.exports = {
     filterByQuery,
