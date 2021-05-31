@@ -49,6 +49,7 @@ router.delete("/notes/:id", function (req, res) {
             break;
         }
     }
+    
     fs.writeFileSync(jsonFilePath, JSON.stringify(notes), function (err) {
 
         if (err) {
@@ -58,6 +59,7 @@ router.delete("/notes/:id", function (req, res) {
         }
     });
     res.json(notes);
+    
 });
 
 
