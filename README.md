@@ -37,7 +37,7 @@
   
   [Heroku Live Page](https://obscure-dusk-26462.herokuapp.com/)
   
-  [Github Live Page](https://wberry86.github.io/note-taker/)
+ 
   
   ## Screenshots
   
